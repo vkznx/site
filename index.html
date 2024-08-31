@@ -13,9 +13,9 @@
         <nav> <!-- Seção de navegação do Site. -->
             <ul> <!-- Lista não ordenada para links do nosso menu. -->
                 <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#oloco">Oloco</a></li>
+                <li><a href="#intuito">Intuito</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="https://www.youtube.com/watch?v=1XLBE-qArtE" target="_blank">Pablo Marçal</a></li>
+                <li><a href="https://www.youtube.com/watch?v=1XLBE-qArtE" target="_blank">Faz o M</a></li>
                 <!-- <li>Sobre mim</li> -->
             </ul>
         </nav>
@@ -24,12 +24,12 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
 
-        <img src="https://i.pinimg.com/736x/0e/1b/12/0e1b12652650163b1dbd6f2631185cd3.jpg" alt="Angry birds putasso" title="Angry birds putasso de tenis">
+        <img src="https://cdn.motor1.com/images/mgl/mBrOo/s1/honda-civic-exl-2020.webp" alt="carro" title="Honda civic si">
 
         <article>
 
             <p>
-                Salve caraio.
+                Olá.
             </p>
 
         </article>
@@ -39,24 +39,24 @@
             <h3>Habilidades</h3>
 
             <ul>
-                <li>Valorant</li>
-                <li>Mira tensa</li>
-                <li>Capa no frifairi</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
             </ul>
 
         </aside>
 
     </section>
 
-    <section id="oloco">
+    <section id="Intuito">
 
-        <h2>Oloco</h2>
+        <h2>Intuito</h2>
 
         <article>
-            <h3>Feitos</h3>
+            <h3>Missão</h3>
 
             <p>
-                Top 2 miras do Haiti.
+                Aprender mais sobre programação.
             </p>
 
         </article>
@@ -64,23 +64,51 @@
     </section>
 
     <footer>
-        <p>nao sei</p>
+        <p>Foco!</p>
 
         <section id="contato">
 
-            <h2>Vrum vrum carros</h2>
+            <h2>Contatos</h2>
 
-            <p>linda parece geladeira electrolux prata com capacidade de 400 litros e porta duplex de gelo frost free
-                com refrigerador 127V ou 220V de voltagem e eficiência energética a consumo 56,3kWh e medidas
-                186,3×60×76cm com funções turbo freezer e drink express</p>
+            <p>Entre em contato comigo logo abaixo.</p>
 
-            <address>
-                Email: <a href="mailto:.prestes.c@Victorgmail.com">Victor.prestes.c@gmail.com</a> <br>
-                Telefone: <a href="tel:4002-8922">4002-8922</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orcamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minhas newletters? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
         </section>
     </footer>
 
-</body> 
+</body>
 
 </html>
